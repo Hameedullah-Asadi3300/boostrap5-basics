@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Typography</title>
+</head>
+<body>
+    
+        <!--Typography-->
+    <div class="container pt-3 my-3 mx-3 bg-success text-white">
+        <h1 style="text-align: center; color:black;">Typography</h1>
+
+        <p>Bootstrap 5 uses font size of 1 rem (16 pixels by default) with line height of 1.5.
+        All p elements has 0 margin-top and 1rem (16 pixels) margin-bottom. </p>
+
+        <!--h1-h6-->
+        <h1 style="text-align:center; color:black;">h1- h6</h1>
+            <p>The font-size of each Bootstrap heading depends on the screen size.</p>  
+            <h6>h6 Bootstrap heading</h6>
+            <h5>h5 Bootstrap heading</h5>
+            <h4>h4 Bootstrap heading</h4>
+            <h3>h3 Bootstrap heading</h3>
+            <h2>h2 Bootstrap heading</h2>
+            <h1>h1 Bootstrap heading</h1>
+            <p>We can also use h1-h6 as classes as well</p>
+            <p class="h3">This is an h3 class used in p element.</p>
+          
+        <!--<display></display>-->
+        <h1 style="text-align:center; color:black;">display</h1>
+        <p>There 6 display classes (display-1 to display-6). These classes are used to stand out headings more than normal text.
+            The display classes generates large font size and narrow font weight.
+        </p>
+        <h1 class="display-6">display 6</h1>
+        <h1 class="display-5">display 5</h1>
+        <h1 class="display-4">display 4</h1>
+        <h1 class="display-3">display 3</h1>
+        <h1 class="display-2">display 2</h1>
+        <h1 class="display-1">display 1</h1>
+
+        <!--<small></small-->
+        <h1 style="text-align:center; color:black;">Small Element and Small Class</h1>
+        <p>The small element and small class in bootstrap 5 is used to create smaller secondry text in headings.</p>
+        <h1>This is<small> small heading 1</small></h1>
+        <h2>This is<small> small heading 2</small></h2>
+        <h3>This is<small> small heading 3</small></h3>
+        <h4>This is<small> small heading 4</small></h4>
+        <h4>This is<small> small heading 5</small></h4>
+        <h5>This is<small> small heading 6</small></h5>
+
+        <!--<mark></mark-->
+        <h1 style="text-align:center; color:black;">Mark</h1>
+        <p>The mark class or element is used to highlight an element with a yellow color and some padding</p>
+        <p class="mark text-black">In this sentence, the mark class of bootstrap 5 is used.</p>
+
+
+        <!--kbd-->
+        <h1 style="text-align: center; color:black;">kbd</h1>
+            <p>the kbd class is used to indicate it is entered that the element is entered via keyboard.</p>
+            <p>To open a new page, press <kbd>Ctrl + n</kbd>on your keyboard.</p>
+
+        <!--<lead></lead>-->
+        <h1 style="text-align: center; color:black;">lead class</h1>
+        <p>The lead class in bootstrap 5 stands out the element from regular text.</p>
+        <p class="lead">In this p element, we have used lead class.</p>
+
+        <!--Alignment-->
+        <h1 style="text-align: center; color: black;">Alignment class</h1>
+        <h6 class="text-center">Center aligned text</h6>
+        <h6 class="text-start">Start aligned text</h6>
+        <h6 class="text-end">End aligned text</h6>
+
+        <!--inline list-->
+        <h1 style="text-align: center; color:black;">inline list</h1>
+        <p>The combination of two classes .list-inline and .list-inline-item removes bullets from a list and instead applies some margins</p>
+            <li class="list-inline list-inline-item">Asia</li>
+            <li class="list-inline list-inline-item">Africa</li>
+            <li class="list-inline list-inline-item">Europe</li>
+            <li class="list-inline list-inline-item">America</li>
+            <li class="list-inline list-inline-item">Australia</li>
+
+
+        <!--blockquote and blockquotefooter-->
+        <h1 style="text-align: center; color:black;">blockquote</h1>
+            <p>To quote another source wrap with blockquote and the class blockquote</p>
+            <blockquote class="blockquote">
+                <p>When I say I love you more, I dont mean I love you more than you love me. 
+                    I mean I love you more than the bad days ahead of us, I love you more than
+                    any fight we will ever have. I love you more than the distance between us, 
+                    I love you more than any obstacle that could try and come between us.
+                    I love you the most.
+                </p>
+                <capfig class="blockquote-footer"><cite>Hameedullah Asadi</cite></capfig>   <!--The <cite></cite> element will give the italic attribution to the source name-->
+                <!--We can also use other element rather than <capfig></capfig>-->
+            </blockquote>
+
+
+            <!--<del></del>-->
+            <h1 style="text-align: center; color:black">del</h1>
+            <p>The del element is used to treat the element the same is delete and it give a line through the element as follows:</p>
+            <p><del>In this line, the class "del" is used.</del></p>
+
+
+            <!--pre element-->
+            <h1 style="text-align: center; color:black;">pre Element</h1>
+            <p>The pre element preerves the fixed width and line breaks as follows:</p>
+            <p><pre>This element uses the pre element
+                which preserves the     spaces, breaks and 
+                text width.
+            </pre></p>
+
+
+            <!--.text-truncate-->
+            <p>The .text-truncate is used when we give description to terms and while the space is tight. It gives elipses to the term before the description</p>
+            <div class="row">   <!--Created a row to hold two unequal columns-->
+                    <p class="col-sm-3 text-truncate">  <!--Column 1 and text-truncate-->
+                            Truncate Truncate Truncate Truncate Truncate    <!--This text is long so it takes elepsis-->
+                    </p>
+                    <p class="col-sm-9 text-truncate">  <!--Column 2 and text-truncate-->
+                            Truncate means when we shorten something.</p>
+                    </p>
+                </div>
+
+
+
+
+
+
+
+                
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
