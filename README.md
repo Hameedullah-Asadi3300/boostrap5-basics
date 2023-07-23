@@ -42,3 +42,17 @@ Classes in Bootstrap5:
           <p>Column 4</p>
           </div>  
         </div>
+            Creating 4 equal columns:
+         <div class="row">
+             <div class="col-sm-3">column 1</div>
+             <div class="col-sm-3">column 2</div>
+             <div class="col-sm-3">column 3</div>
+             <div class="col-sm-3">column 4</div>
+         </div>  
+            Creating 2 anequal columns:
+         <h1 style="text-align:center">How to create 2 anequal columns?</h1>
+         <div class="row">
+             <div class="col-sm-4">Small Column</div>
+             <div class="col-sm-8">Large Column</div>
+         </div>
+
