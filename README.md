@@ -4,10 +4,10 @@ The Bootstrap5-basics is the repo all about the basics of the magical framework.
 
 Installation: Boostrap5 is the latest version and there are two ways of instalation.
 
-CDN We directly paste these two links within the head secstion of HTML.
-
+With CDN We directly paste these two links within the head secstion of HTML.
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-Downloading from https://getbootstrap.com/
+
+Or Downloading from https://getbootstrap.com/
 
 ##  Description
 Classes in Bootstrap5:
