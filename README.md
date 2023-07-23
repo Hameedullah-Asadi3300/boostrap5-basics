@@ -66,9 +66,9 @@ Classes in Bootstrap5:
 ##   Colors
          In colors.html file you can find all the classes for .text-colors, bg-colors, and opacity for dark and white colors:
          background Colors:
-         ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/a873cd30-0247-4afa-8d50-fe800fc1ee20)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/a873cd30-0247-4afa-8d50-fe800fc1ee20)
          text-colors:
-         ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/5de38d86-eda2-491d-a5af-d337d7ad13db)
+ ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/5de38d86-eda2-491d-a5af-d337d7ad13db)
          opacity:
 
          
