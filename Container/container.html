@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">`<!--This tag ensures proper rendering and also and touch zooming-->
+    <!--width=device-width sets the width of the page to follow the screen width of the device which vary depending on the device-->
+    <!--initial-scale=1 sets the initial zoom level while the page is first loaded by the browser.-->
+    <!--Bootstrap5 CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Container/Bootstrap5</title>
+</head>
+<body>
+    <h1 style="text-align:center";>Container/Bootstrap</h1Container></h1>
+
+    <!--
+ There are two container class in bootstrap5:
+ 1. container: provides a fixed width size container.
+ 2.container-fluid: provides a full width size container.
+    -->
+
+    <div class="container-fluid">
+        <h3>(.container)</h3>
+        <p>This is (.container) class which provides the fixed width container</p>
+      </div>
+<hr>
+    <div class="container-fluid">
+    <h3>(.container-fluid)</h3>
+    <p>This is the (.container-fluid) class which provides the fulle width elements container</p>
+    </div>
+
+<hr>
+<!--
+    By default, the container class has padding on both right and left sides,
+    but not at the top and bottom, so we us spacing utilities for top and bottom
+    so it looks better. we use (pt-2) for that which means add a large padding at the top.
+-->
+    <div class="container pt-2">
+        <h3>Top padding</h3>
+        <p>The pt-5 will add a large top padding at the top.</p>
+    </div>
+
+<hr>
+
+<!--
+    We can also use border, background and text color along with the container class.
+-->
+<div class="container p-5 my-5 bg-black text-warning">  
+    <h6>Container Border and Color<h6>
+    <p>The container has dark background, golden text color, extra padding and margins.</p>
+</div>
+
+<hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
