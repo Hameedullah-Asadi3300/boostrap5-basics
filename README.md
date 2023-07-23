@@ -55,4 +55,11 @@ Classes in Bootstrap5:
              <div class="col-sm-4">Small Column</div>
              <div class="col-sm-8">Large Column</div>
          </div>
-
+## Typography
+         In typography.html file you will find the following classes and elements:
+         1: h1-h6                            6: <kbd></kbd>              11: .text-end          
+         2: <display></display>              7: <lead></lead>            12: .list-inline
+         3: <small></small>                  8: .text-center             13: .list-inline-item
+         4: <mark></mark>                    9: .text-start              14: <blockquote></blockquote>
+         5: <pre></pre>                      10: <del></del>             15: <blockquote-footer></blockquote-footer>
+                                                                         16: .text-truncate
