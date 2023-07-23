@@ -13,11 +13,12 @@ Or Downloading from https://getbootstrap.com/
 Classes in Bootstrap5:
 1. Container
    
-          Boostrap5 requires container which holds the whole content in. There are two types of container classes:
+          Boostrap5 requires container which holds the whole content in. There are two types of container
+          classes:
           1. container: provides a fixed width size container.
           2.container-fluid: provides a full width size container.
           The container.html files contains examples of both containers. in bootstrap5.
-2. Grid System
+3. Grid System
 
           Bootstrap allows us 12 column on a page and the grid system has 12 classes:
             •	.col- (extra small devices - screen width less than 576px)
