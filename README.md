@@ -69,7 +69,24 @@ Classes in Bootstrap5:
    ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/a873cd30-0247-4afa-8d50-fe800fc1ee20)
          text-colors:
  ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/5de38d86-eda2-491d-a5af-d337d7ad13db)
-         opacity:
+
+## Tables
+      In tables.html you can find all the bootstrap classes for creating tables:
+         1: .table                  6: .table-striped                              11: .table-sm                  16: .table-responsive-xl
+         2: .table-striped          7: .table .table-dark .table-hover             12: .table-responsive          17: .table-responsive-xxl
+         3: .table-bordered         8: .table-borderless                           13: .table-responsive-sm
+         4: .table-hover            9: .table-bordered                             14: .table-responsive-md
+         5: .table-dark             10: .table-warning                             15: .table-responsive-lg
+      
+
+
+
+
+
+
+
+
+      
 
          
 
