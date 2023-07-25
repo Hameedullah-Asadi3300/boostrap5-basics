@@ -78,7 +78,17 @@ Classes in Bootstrap5:
          4: .table-hover            9: .table-bordered                             14: .table-responsive-md
          5: .table-dark             10: .table-warning                             15: .table-responsive-lg
       
+## Images
+      The images.html file contains all the image classes in bootstrap 5 as follows:
+         1: .img-thumbnail               ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/e5c2da51-d1b2-4979-930f-025dce6199d8)
 
+         2: .img-rounded
+         3: .rounded
+         4: .rounded-circle
+         5: .rounded mx-auto d-block
+         6: .img-fluid
+         7: .rounded float-start
+         8: .rounded float-end
 
 
 
