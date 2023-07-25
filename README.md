@@ -80,17 +80,13 @@ Classes in Bootstrap5:
       
 ## Images
       The images.html file contains all the image classes in bootstrap 5 as follows:
-         1: .img-thumbnail
-         
-         ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/e5c2da51-d1b2-4979-930f-025dce6199d8)
-
-         2: .img-rounded
-         3: .rounded
-         4: .rounded-circle
-         5: .rounded mx-auto d-block
-         6: .img-fluid
-         7: .rounded float-start
-         8: .rounded float-end
+         1: .img-thumbnail                        |   gives a 1px border around the image
+         2: .rounded                              |   gives a rounded corner to the image
+         3: .rounded-circle                       |   makes an image absloutely rounded
+         4: .rounded mx-auto d-block              |   positions an image at the center
+         5: .img-fluid                            |   makes an image responsive which scales to the parent element width
+         6: .rounded float-start                  |   floats an image to the left
+         7: .rounded float-end                    |   floats an image to the right
 
 
 
