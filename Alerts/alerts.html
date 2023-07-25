@@ -6,11 +6,226 @@
     <!--Bootstrap5 CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Alerts-Bootstrap5</title>
+
+    <style>
+        body {
+            background-color:black;
+            color:white;
+        }
+    </style>
 </head>
 
-
 <body>
+    <!--Description-->
+    <div class="container mx-3">
+        <h1 class="display-3" style="text-align: center;">Alerts</h1>
+        <p>Alerts are used to provide a feedback to the uses' action.
+            Bootstrap own pre-defined classes used for creating alerts.
+            <br>Alerts are created using the .alerts and one of eight contextual classes as follws:
+            <br><strong>Each color also conveys a meaning.</strong>
+        </p>    
+    </div>
     
+
+    <!--alert-primary-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-success</p>
+    <div class="alert alert-primary" role="alert">
+        <strong>success:</strong>This is alert-primary class alert. 
+    </div>
+</div>
+
+
+<!--alert-secondary-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-secondary</p>
+    <div class="alert alert-secondary" role="alert">
+        <strong>secondary:</strong>This is alert-secondary class alert.
+    </div>
+</div>
+
+
+<!--alert-success-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-success</p>
+    <div class="alert alert-success" role="alert">
+        <strong>success:</strong>This is alert-success class alert. 
+    </div>
+</div>
+
+
+<!--alert-danger-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-danger</p>
+    <div class="alert alert-danger" role="alert">
+        <strong>danger:</strong>This is alert-danger class alert.
+    </div>
+</div>
+
+
+<!--alert-warning-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-warning</p>
+    <div class="alert alert-warning" role="alert">
+        <strong>warning:</strong>This is alert-warning class alert.
+    </div>
+</div>
+
+
+<!--alert-info-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-warning</p>
+    <div class="alert alert-info" role="alert">
+        <strong>info:</strong>This is alert-info class alert.
+    </div>
+</div>
+
+
+<!--alert-light-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-light</p>
+    <div class="alert alert-light" role="alert">
+        <strong>light:</strong>This is alert-light class alert.
+    </div>
+</div>
+
+
+<!--alert-dark-->
+<div class="container mx-3">
+    <p class="display-6">.alert alert-dark</p>
+    <div class="alert alert-dark" role="alert">
+        <strong>dark:</strong>This is alert-dark class alert.
+    </div>
+</div>
+
+
+<!--Live Alert-->
+
+<div class="container mx-3">
+    <p class="display-6">Live Alert</p>
+<p>The live alert hides the message and will display only by clicking the button. The message is hidden
+    by built-in closing button.
+    <br><strong>It also needs JS code to trigger the live alert which pasted inside this file as comment</strong>
+</p>
+    <div class="liveAlertPlaceholder"></div>
+    <button type="button" class="btn btn-primary" id="liveAlertBtn">Alert Button</button>
+</div>
+
+<!--
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('You are trying to access unauthorized account!')
+  })
+}
+-->
+
+
+
+<!--alert link-->
+<div class="container mx-3 pt-5">
+    <p class="display-6">.alert-link</p>
+    <div class="alert alert-primary">
+        <strong>primary:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+<!--alert-link alert-secondary-->
+<div class="container mx-3">
+    <div class="alert alert-secondary">
+        <strong>secondary:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+<!--alert-link alert-dark-->
+<div class="container mx-3">
+    <div class="alert alert-dark">
+        <strong>dark:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+<!--alert-link alert-warning-->
+<div class="container mx-3">
+    <div class="alert alert-warning">
+        <strong>warning:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+<!--alert-link alert-light-->
+<div class="container mx-3">
+    <div class="alert alert-light">
+        <strong>light:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+<!--alert-link alert-success-->
+<div class="container mx-3">
+    <div class="alert alert-success">
+        <strong>success:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+<!--alert-link alert-info-->
+<div class="container mx-3">
+    <div class="alert alert-info">
+        <strong>info:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+<!--alert-link alert-danger-->
+<div class="container mx-3">
+    <div class="alert alert-danger">
+        <strong>danger:</strong><a href="https://www.w3schools.com/bootstrap5/index.php" target="blank" class="alert-link">Checkout the react tutorial</a>
+    </div>
+</div>
+
+
+
+<!--Additional elements with the alert class-->
+<div class="container mx-3">
+    <p class="display-6">Additional elements to the alert classes</p>
+    <div class="alert alert-warning">
+        <h6>Warning!</h6>
+        <p>You are commiting an unsafe action which can probably damage your computer.</p>
+        <hr>
+        <Strong>Note: </Strong>
+        <p>For any help, please contact IT department.</p>
+        <cite>IT Department</cite>
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<!--Clsoing alerts-->
+
+
+
+
 
 
 
