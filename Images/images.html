@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link - CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Images</title>
+    <style>
+        body {
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1 class="display-3" style="text-align:center;">Images</h1>
+
+    <!--img-thumbnail-->
+    <p class="display-6">.img-thumbnail</p>
+    <p>This class gives an image a border of 1 pixel as follows:</p>
+<div class="container-fluid">
+    <img src="image_1.png" class="img-thumbnail" alt="Downtown look" width="400px" height="300">
+</div>
+
+<!--.rounded-->
+    <p class="display-6">.rounded</p>
+    <p>.reouded class in bootstrap, gives a rounded corner to the image.</p>
+
+    <div class="container-fluid">
+        <img src="image_3.png" class="rounded" alt="Intersection" width="400px" height="300">
+    </div>
+
+<!--rounded-circle-->
+<p class="display-6">.rounded-circle</p>
+<p>This class in bootstrap, gives a circle around an image as follows:</p>
+<div class="container-fluid">
+    <img src="image_4.png" class="rounded-circle" alt="Coding" width="400px" height="300px">
+</div>
+
+<!--Central Image-->
+<p class="display-6">.rounded mx-auto d-block</p>
+<p>This class in boostrap 5, puts the image at the center of the page as follows:</p>
+<div class="container">
+    <img src="image_2.png" class="rounded mx-auto d-block" alt="A woman looking at the river" width="500" height="400">
+</div>
+
+<!--Resonsive image-->
+<div class="container mt-5">
+    <p class="display-6">Responsive Image</p>
+    <p>We can create a responsive image using the <div class="img-fluid">
+        <br>This class applies (max-width: 100% and height: auto).
+        <br>The image will scale to the parent width.
+    </div></p>
+    <img src="image_8.png" class="img-fluid" alt="A man in the beach">
+
+</div>
+
+<!--Aigning Images-->
+<p class="display-6">.rounded float-start & .rounded float-end</p>
+<p>These classes in bootstrap 5 aligns the images as follows:
+    <br><b>Note:</b> The .rounded float-start floats the image to the left.
+    <br><b>Note:</b> The .dounded float-end floats the image to the left.
+</p>
+<div class="container">
+    <img src="image_6.png" class="rounded float-start" alt="family in nature" width="400px" height="300px">
+    <img src="image_7.png" class="rounded float-end" alt="A mom and son" width="400px" height="300px">
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!--The JavaScript link - CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
