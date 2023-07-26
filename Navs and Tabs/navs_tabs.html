@@ -6,6 +6,12 @@
     <!--Bootstrap link - CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Navs & Tabs</title>
+    <style>
+        body {
+            background-color:black;
+            color:white;
+        }
+    </style>
 </head>
 <body>
     <!--Horizontal nav-->
@@ -33,6 +39,10 @@
 </ul>
 </div>
 
+
+<hr>
+
+
 <!--Aligned navs-->
 <div class="container mx-3">
     <p class="display-6">Aligned nav</p>
@@ -58,8 +68,10 @@
 </div>
 
 
-<!--Verticle navs-->
+<hr>
 
+
+<!--Verticle navs-->
 <div class="container mx-3">
     <p class="display-6">Verticle nav</p>
     <p>To use vertical navs, we use (.nav flex-column) classes. Vertical navigation is possible with the (nav) elemen as well:</p>
@@ -78,6 +90,9 @@
         </li>
     </ul>
 </div>
+
+
+<hr>
 
 
 <!--Tabs-->
@@ -101,6 +116,145 @@
 </div>
 
 
+<hr>
+
+
+<!--Nav-pills-->
+<div class="container mx-3">
+    <p class="display-6">Pills</p>
+    <p>We can turn nav menu into navigation pills using the (.nav-pills)</p>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+        <li class="nav-link">
+            <a class="nav-link" href="#programs">Programs</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#careers">Careers</a>
+        </li>
+    </ul>
+</div>
+
+<hr>
+
+<!--Nav-justified-->
+<div class="container mt-3">
+    <p class="display-6">.nav .nav-justified</p>
+    <p>For having equal width of tabs/pills, add (.nav-justified) to the (.nav .nav-pills).</p>
+    <div class="nav nav-pills nav-justified">
+        <ul class="nav-item">
+            <a class="nav-link active" href="#aboutus">About Us</a>
+        </ul>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#ourmenu">Menu</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#onlinedelivery">Delivery</a>
+        </li>
+
+    <li class="nav-item">
+        <a class="nav-link active" href="#ordernow">Order Now</a>
+    </li>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique id cumque beatae labore unde.
+        Nihil eius necessitatibus aspernatur. Impedit nostrum ex laborum quasi adipisci consequatur quibusdam accusamus,
+        praesentium laboriosam!</p>
+</div>
+</div>
+
+<hr>
+
+<!--Dropdown-->
+<div class="container-fluid mx-3">
+    <p class="display-6">Tabs with dropdown</p>
+    <p>To make a dropdown list, use:
+        <br>li class="nav-item dropdown"
+        <br>a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#skills">Skills
+        <br>ul class="dropdown-menu"
+        <br>And (li)(a) class="dropdown-item" href="#">HTML5(/a)(li)
+    </p>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="#home">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#skills">Skills</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">HTML5</a></li>
+        <li><a class="dropdown-item" href="#">CSS</a></li>
+        <li><a class="dropdown-item" href="#">Bootstrap5</a></li>
+        <li><a class="dropdown-item" href="#">JavaScript</a></li>
+        <li><a class="dropdown-item" href="#">React</a></li>
+        <li><a class="dropdown-item" href="#">C# & .Net Framework good good good good good good</a></li>
+        <li><a class="dropdown-item" href="#">ASP .Net</a></li>
+        <li><a class="dropdown-item" href="#">Git</a></li>
+        <li><a class="dropdown-item" href="#">SQL</a></li>
+        <li><a class="dropdown-item" href="#">IDE</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#github">Github</a>
+    </li>
+  </ul>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt officiis sequi 
+    corrupti facilis eos quibusdam aspernatur eum eveniet ea tempore a laboriosam exercitationem libero,
+    natus tempora vero minus voluptatem cum.</p>
+</div>
+
+
+<hr>
+
+
+<!--Toggelable-->
+<div class="container mx-3">
+    <p class="display-6">Toggleable Tabs</p>
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#resources">Resoures</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#contact">Contact</a>
+        </li>
+    </ul>
+    <!--Tab Content-->
+    <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+    <h4>Home</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<div id="resources" class="container tab-pane fade"><br>
+    <h4>Resources</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<div id="services" class="container tab-pane fade"><br>
+    <h4>Services</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+
+<div id="contact" class="container tab-pane fade"><br>
+    <h4>Contact</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+</div>
+
+
+
+
+ 
 
 
 
