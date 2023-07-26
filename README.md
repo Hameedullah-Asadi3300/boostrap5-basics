@@ -88,6 +88,16 @@ Classes in Bootstrap5:
          6: .rounded float-start                  |   floats an image to the left
          7: .rounded float-end                    |   floats an image to the right
 
+## Alerts
+      In alerts.html all alert classes are included:
+      1: .alert alert-success                        6: alert alert-warning         11: Closing alert
+      2: .alert alert-secondary                      7: .alert alert-light          12: Additional elements to the alert classes
+      3: .alert alert-success                        8: .alert alert-dark
+      4: .alert alert-danger                         9: .alert-link
+      5: .alert alert-warning                        10: Icons in Alerts
+
+
+
 
 
 
