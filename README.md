@@ -95,6 +95,22 @@ Classes in Bootstrap5:
       3: .alert alert-success                        8: .alert alert-dark
       4: .alert alert-danger                         9: .alert-link
       5: .alert alert-warning                        10: Icons in Alerts
+## Navs & Tabs
+      In navs_tabs.html there are all practical examples of navs and tabs classes in bootstrap5:
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/1568342c-bf6d-418a-b788-30bfa0113f48)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/9830c020-7232-4f74-a5c2-1ca5a4b7ae44)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/36bf680b-6e72-4900-88ab-4e5845a0b72b)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/7af4e411-097d-4cd7-a230-4081b8049015)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/27ac2a08-aceb-48d4-96d4-634108a21dab)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/0652e57c-f490-4052-af93-1931d1de0db7)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/813e71c3-e96a-40c0-ac57-ea6c6fd7a2fc)
+   ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/5ff566a5-17d6-437c-9d6f-e5ad7665111f)
+
+
+
+
+
+
 
 
 
