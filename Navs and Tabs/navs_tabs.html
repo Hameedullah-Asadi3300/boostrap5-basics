@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link - CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Navs & Tabs</title>
+</head>
+<body>
+    <!--Horizontal nav-->
+    <h1 class="display-3" style="text-align: center">Navs & Tabs</h1>
+
+<div class="container mx-3">
+    <p class="display-6">.nav-Horizontal nav</p>
+<p>To create a horizontal nav, add (.nav) class to the (ul) element, followed by (.nav-item) for each (li)
+    and add the (.nav-link) to their links.
+</p>
+
+<ul class="nav">
+    <li class=".nav-item">
+        <a class="nav-link" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="coding">Coding</a>
+    </li>
+    <li class="nav">
+    <a class="nav-link" href="contact">Contact</a>
+    </li> 
+</ul>
+</div>
+
+<!--Aligned navs-->
+<div class="container mx-3">
+    <p class="display-6">Aligned nav</p>
+   <p>We can use(.nav .justify-content-center) to centralize or (.nav .justify-content-end)to place the nav at the end/right side.</p>
+    
+   <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#newsletter">NewsLetter</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
+        </li>
+    </ul>
+</div>
+
+
+<!--Verticle navs-->
+
+<div class="container mx-3">
+    <p class="display-6">Verticle nav</p>
+    <p>To use vertical navs, we use (.nav flex-column) classes. Vertical navigation is possible with the (nav) elemen as well:</p>
+    
+    <ul class="nav flex-column">
+        <li class="nav--item">
+            <a class="nav-link" href="#aboutus">About Us</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="login">Log in</a>
+        </li>
+    </ul>
+</div>
+
+
+<!--Tabs-->
+<div class="container mx-3">
+    <p class="display-6">Tabs</p>
+    <p>It is possible to turn the bavigation menu into navigation tab using the (.nav-tabs).</p>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link"  href="#languages">Languages</a>
+        </li>
+
+        <li class="nav nav-tabs">
+            <a class="nav-link" href="#offers">Offers</a>
+        </li>
+
+        <li class="nav nav-tabs">
+            <a class="nav-link" href="#instructors">Instructors</a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+    <!--The JavaScript link - CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
