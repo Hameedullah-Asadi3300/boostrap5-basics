@@ -2,7 +2,7 @@
 The Bootstrap5-basics is the repo about the basics of this magical framework. It can also be used as a torurial.
       ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/59f350cc-08ee-4275-b7a1-745f37f23b84)
 
-Installation: Boostrap5 is the latest version and there are two ways of instalation.
+Installation: Boostrap5 is the latest version and there are two ways t install:
 
 With CDN We directly paste these two links within the head secstion of HTML.
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
