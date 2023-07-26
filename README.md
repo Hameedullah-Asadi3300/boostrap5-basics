@@ -1,6 +1,6 @@
 # boostrap5-basics
-The Bootstrap5-basics is the repo all about the basics of the magical framework. This can also be used as a torurial for begginers.
-![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/8767aa89-5974-4cd2-9c13-2f41d0120bdd)
+The Bootstrap5-basics is the repo about the basics of this magical framework. It can also be used as a torurial.
+      ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/59f350cc-08ee-4275-b7a1-745f37f23b84)
 
 Installation: Boostrap5 is the latest version and there are two ways of instalation.
 
