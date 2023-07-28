@@ -109,6 +109,22 @@ Classes in Bootstrap5:
    ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/813e71c3-e96a-40c0-ac57-ea6c6fd7a2fc)
    ![image](https://github.com/Hameedullah-Asadi3300/boostrap5-basics/assets/123219655/5ff566a5-17d6-437c-9d6f-e5ad7665111f)
 
+## Navbar
+      This foloder conists of three files:
+      The offcanvas_navbar.html contains a practical example of offcanvas navbar.
+      
+      The top-bottom-navbars.html contains two examples of fixed-top and fixed-bottom navbars.
+
+      The navbars.html contains the practical examples of the following classes:
+      1: Horizontal navbar      |      navbar navbar-expand
+      2: Vertical navbar        |      navbar
+      3: Centered navbar        |      justify-content-center
+      4: Colored navbar         |      bg-primary, bg-warning, bg-success, bg-light, bg-info, bg-danger, bg-secondary, bg-dark, 
+      5: Barnd/logo             |      navbar-brand
+      6: Vertical allingment    |      navbar-text
+      7: Dropdown               |      navbar-toggler
+      8: Sticky navbar          |       sticky-top, sticky-bottom etc...    
+      9: Navbar Form and Button |      Combination of classes
 
 
 
