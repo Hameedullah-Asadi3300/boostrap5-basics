@@ -16,37 +16,402 @@
 <p class="display-6">Basics</p>
 <p>
 With Bootstrap, a navigation bar can extend or collapse, depending on the screen size.
-A standard navigation bar is created with the (.navbar) class, followed by a responsive collapsing class:
+<br>A standard navigation bar is created with the (.navbar) wrapper class, followed by a responsive collapsing class:
 .navbar-expand-xxl|xl|lg|md|sm (stacks the navbar vertically on xxlarge, extra large, large, medium or small screens).
-To add links inside the navbar, use either an ul element (or a div) with class="navbar-nav". Then add li elements with a
+<br>To add links inside the navbar, use either an ul element (or a div) with class="navbar-nav". Then add li elements with a
 .nav-item class followed by an (a) element with a (.nav-link) class:
 </p>
 
+
+<!--Horizontal navbar-->
 <div class="container mx-3">
-    <nav class="navbar navbar-expand">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
+    <p class="display-6">Horizontal Navbar</p>
 
-
+            <nav class="navbar navbar-expand">
+            <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Home</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">About Us</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Skills</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
     </nav>
 </div>
 
   
-<p class="display-6">Vertical Navigation Bar</p>
+<!--Verticle Navbar-->
+<div class="continer mx-3">
+    <p class="display-6">Vertical Navigation Bar</p>
+    <p>To make a verticle navbar, jus remove the class (.navbar-expand).</p>
+
+    <div class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#">Programs</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contat</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+<!--Centered Navbar-->
+<div class="container mx-3">
+    <p class="display-6">Centered Navbar</p>
+    <p>To make a centered navbar use the class (.justify-content-center).</p>
+
+    <div class="navbar navbar-expand-lg justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Proructs</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="nav-link" href="#">Products Rerun</a>
+            </li>
+    
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!--Colored Navbar-->
+<div class="container mx-3">
+    <p class="display-6">Colored Navbar</p>
+    <p>By using one the following bg classes, we can choose our color of navbar:</p>
+    <h6 style="text-align: center;">
+        .bg-primary, .bg-warning, .bg-success, .bg-light, .bg-info, .bg-danger, .bg-secondary, .bg-dark
+    </h6>
+        <div class="navbar navbar-expand bg-primary justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Mission</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Vision</a>
+                    </li>
+            </ul>
+        </div>
+</div>
+
+<!--bg-warning-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-warning justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+   
+<!--success-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-success justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+   
+<!--bg-light-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+
+<!--bg-info-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-info justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+   
+
+<!--bg-danger-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-danger justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+   
+<!--bg-secondary--->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-secondary justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+   
+
+<!--bg-dark-->
+<div class="container mx-3">
+    <div class="navbar navbar-expand bg-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+        </ul>
+    </div>
+</div>
+
+
+   
+<!--Brand/Logo-->
+<div class="container mx-3">
+    <p class="display-6">Barnd/Logo</p>
+    <p>To use a brand/logo in our navigation bar, the class (.navbar-brand) is used.</p>
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <a class="navbar-brand">
+            <img src="logo.png" alt="closing tag" style="width:70px;" class="rounded-pill">
+        </a>
+    </nav>
+</div>
+
+
+<!--Brand/Logo With Text-->
+<div class="container mx-3">
+    <p>With the (.navbar-brand) we can also use text as our brand.</p>
+    <nav class="navbar navbar-expand-sm bg-success">
+        <a class="navbar-brand" href="#">Navbar</a>
+    </nav>
+</div>
+
+
+<!--Navbar Text-->
+<div class="container mx-3">
+    <p class="display-6">Navbar Text</p>
+    <p>The (.navbar-text) vertically aligns text inside a navbar. The text should not be the link.</p>
+    <nav class="navbar navbar-text bg-warning">
+        <span class="navbar-text">This is Navbar Text</span>
+    </ul>
+    </nav>
+</div>
+
+
+
+<!--Navbar With Dropdown-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+        <a class="navbar-brand">
+            <img src="bootstrap.png" style="width:50px;">       
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#dropDown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dropDown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Team</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">CEO</a></li>
+                        <li><a class="dropdown-item" href="#">Developers</a></li>
+                        <li><a class="dropdown-item" href="#">Operations</a></li>
+                        <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!--Navbar Forms and Buttons-->
+<div class="container mx-3">
+    <p class="display-6">Forms in Navbar</p>
+    <nav class="navbar navbar-expand-sm bd-danger">
+        <a class="nav-link" href="#"
+    </nav>
+
+    </nav>
+</div>
+    
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
 
 
 
