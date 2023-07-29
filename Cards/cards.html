@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap link - CDN-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Cards-Bootstrap</title>
+    <style>
+        body {
+            background-color:ghostwhite;
+        }
+    </style>
+</head>
+<body>
+    <!--Defination-->
+    <div class="container mx-3">
+    <p class="display-3" style="text-align:center">Cards</p>
+    <p>A card is flexible and extensible content container and Bootstrap5 card classes provides these containers.
+        A card contains follosings:
+        <ul>
+            <li>Header</li>
+            <li>Footer</li>
+            <li>Contextual background colors</li>
+            <li>A wide variety of content</li>
+            <li>An display option</li>
+        </ul>
+        Cards have no margins by default, so it is best to use spaces utilities.
+        Cards have no fixed width to start, so they will fill the full width of its parent element.
+    </p>
+</div>
+
+<!--Basic Card-->
+<div class="container mx-3">
+<div class="card" style="width: 19rem;">
+    <img src="card_1.png" class="card-img-top" alt="Sushi">
+    <div class="card-body bg-light">
+      <h5 class="card-title" style="text-align: center;">Sushi</h5>
+      <p class="card-text">Small: $11.99 <br>Medium: !3.99<br>Large: 15.99</p>
+      <a href="#" class="btn btn-primary">Order Here</a>
+    </div>
+  </div>
+</div>
+
+<!--Body-->
+<div class="container mx-3">
+    <p class="display-6">Content Type</p>
+    <p class="display-6">Body</p>
+    <p>Card can support different types of content such as:
+        <ul>
+            <li>Images</li>
+            <li>Text</li>
+            <li>List</li>
+            <li>List groups</li>
+            <li>Links</li>
+        </ul>
+        The building block of a card is (.card-body).
+    </p>
+    <div class="card">
+        <div class="card-body">
+            Card Body
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!--Tiltes, Text and Links-->
+<div class="container mx-3">
+    <p class="display-6">Titles, Text and Links</p>
+    <p>Card titles are used by adding <strong>.card-title</strong> to a <strong>h1-h6</strong>tag.
+        In the same way, links are added and placed next to each other by adding <strong>.card-link</strong> to an <strong>(a)</strong> tag.
+        The followings classes are used in this card:
+        <ul>
+            <li>card</li>
+            <li>card-body</li>
+            <li>card-title</li>
+            <li>card-subtitle</li>
+            <li>card-text</li>
+            <li>card-link</li>
+        </ul>
+    </p>
+    <div class="card" style="width:16rem">  <!--Created a basic card-->
+        <img src="inception.png" class="card-img-top" alt="Poster"> <!--Added an inamge with the card-img-top class-->
+        <div class="card-body">         <!--Added a body to the card with the class card-body-->
+            <h4 class="card-title">The Dard Night</h4>      <!--Added a title to the card with card-title class-->
+            <h6 class="card-subtitle">Release: July, 6, 2010</h6>   <!--Added a subtitle to the card with the class card-subtitle-->
+            <p class="card-text">Inception wants you to question everything about the nature of what you're seeing onscreen.</p>
+            <a href="https://www.youtube.com/watch?v=YoHD9XEInc0" class="card-link">Trailer</a>
+
+        </div>
+    </div>
+
+
+<!--Images-->
+<div class="container mx-3">
+    <p class="display-6">Images</p>
+    <p>We can add image to the top of the card card using the (.card-img-top).</p>
+    <div class="card" style="width: 16rem">
+        <img src="sunset.png" class="card-img-top" alt="Sunset">
+        <h3 class="card-title">Sunset</h3>
+        <h6 class="card-subtitle">A dark sunset in Califronia</h6>
+    </div>
+</div>
+
+
+<!--List Group-->
+<div class="container mx-3">
+    <p class="display-6">List Group</p>
+    <p>We can make a list content using following three classes with ul and li tags:
+        <ul>
+            <li>list-group: used with ul tag</li>
+            <li>list-group-flush: used with ul tag</li>
+            <li>list-group-item: used with li tag</li>          
+        </ul> </p>
+    <div class="card" style="width: 16rem;" >
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+        </ul>
+    </div>
+</div>
+
+
+<!--Card Header and Footer-->
+<div class="container mx-3">
+    <p class="display-6">Card Footer</p>
+    <p>We can use the class (.card-footer) to add a footer to our card.</p>
+    <div class="card" style="width:16rem">
+        <h6 class="card-header">EU Countries</h6>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Grmany</li>
+            <li class="list-group-item">Sweden</li>
+            <li class="list-group-item">Switzerland</li>
+        </ul>
+        <p class="card-footer">These are the countries I like them the most.</p>
+    </div>
+</div>
+    
+
+<!--Sizing-->
+<div class="container mx-3">
+    <p class="display-6">Sizing</p>
+    <p>The Bootstrap classes are 100% width unless otherwise stated.
+        We can change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
+</div>
+<div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Asia</h3>
+                <p class="card-text">
+                    Asia is the largest continent by both land area and population. It covers 30% of Earth's total land area.
+                </p>
+                <a href="https://www.britannica.com/place/Asia" class="btn btn-primary" target="_blank">More Info</a>
+            </div>
+        </div>
+    </div>
+
+<div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Europe</h3>
+            <p class="card-text">
+                Europe is located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere.
+            </p>
+            <a href="https://www.britannica.com/place/Europe" class="btn btn-primary" target="_blank">More Info</a>   
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--Spacing Utilties-->
+<div class="container mx-3">
+    <p class="display-6">Spacing Utilities</p>
+    <p>Use the following sizing utilities: <a href="https://getbootstrap.com/docs/5.3/utilities/sizing/" target="_blank">Available sizing utilities</a></p>
+    
+</div>
+<div class="card w-50 mb-5 my-5">   <!--width is short for width which is 50% of the screen, mb is short for margin-bottom and my aligns the content vertically-->
+    <div class="card-body">
+      <h5 class="card-title">Africa</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+  </div> 
+  <div class="card w-50 mb-5 my-5"> <!--width is short for width which is 50% of the screen, mb is short for margin-bottom and my aligns the content vertically-->
+    <div class="card-body">
+      <h5 class="card-title">Australia</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+  </div>
+
+
+  <!---->
+
+
+
+
+        <!--The JavaScript link - CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
