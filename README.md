@@ -137,7 +137,17 @@ Classes in Bootstrap5:
       7: .list-group-flush                        
       8: .list-group-item                         
       
-
+## Placeholder
+      Placeholders can be used to enhance the experience of your application. They are built only with HTML and CSS.
+      The placeholders.html files discusses how to create, how to change the size, width, colors, and animation with
+      the following classes:
+      1: .placeholder
+      2: .placeholder-glow
+      3: .placeholder-wave
+      4: .placceholder-lg
+      5: .placeholder-sm
+      6: .placeholder-xs
+      
 
 
 
