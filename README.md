@@ -126,7 +126,17 @@ Classes in Bootstrap5:
       8: Sticky navbar          |       sticky-top, sticky-bottom etc...    
       9: Navbar Form and Button |      Combination of classes
 
-
+## Cards
+      The cards.html file includes all available classes for cards in Bootstrap5 such as:
+      1: .card                                    9: .card-header
+      2: .card-body                               10: .card-footer
+      3: .card-title                              11: .card-img-top
+      4: .card-subtitle                           12: .card-img-bottom
+      5: .card-text                               13: .card-img-overlay
+      6: .list-group                              14: .card-group
+      7: .list-group-flush                        
+      8: .list-group-item                         
+      
 
 
 
