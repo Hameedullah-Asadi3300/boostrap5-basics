@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
+
     <!--Defination-->
     <div class="container mx-3">
     <p class="display-3" style="text-align:center">Cards</p>
@@ -30,10 +31,11 @@
     </p>
 </div>
 
+
 <!--Basic Card-->
 <div class="container mx-3">
 <div class="card" style="width: 19rem;">
-    <img src="card_1.png" class="card-img-top" alt="Sushi">
+    <img src="images/card_1.png" class="card-img-top" alt="Sushi">
     <div class="card-body bg-light">
       <h5 class="card-title" style="text-align: center;">Sushi</h5>
       <p class="card-text">Small: $11.99 <br>Medium: !3.99<br>Large: 15.99</p>
@@ -41,6 +43,7 @@
     </div>
   </div>
 </div>
+
 
 <!--Body-->
 <div class="container mx-3">
@@ -70,10 +73,10 @@
 
 
 
-</div>
 
 
-<!--Tiltes, Text and Links-->
+
+    <!--Tiltes, Text and Links-->
 <div class="container mx-3">
     <p class="display-6">Titles, Text and Links</p>
     <p>Card titles are used by adding <strong>.card-title</strong> to a <strong>h1-h6</strong>tag.
@@ -88,8 +91,12 @@
             <li>card-link</li>
         </ul>
     </p>
+</div>
+
+
+
     <div class="card" style="width:16rem">  <!--Created a basic card-->
-        <img src="inception.png" class="card-img-top" alt="Poster"> <!--Added an inamge with the card-img-top class-->
+        <img src="images/inception.png" class="card-img-top" alt="Poster"> <!--Added an inamge with the card-img-top class-->
         <div class="card-body">         <!--Added a body to the card with the class card-body-->
             <h4 class="card-title">The Dard Night</h4>      <!--Added a title to the card with card-title class-->
             <h6 class="card-subtitle">Release: July, 6, 2010</h6>   <!--Added a subtitle to the card with the class card-subtitle-->
@@ -98,18 +105,6 @@
 
         </div>
     </div>
-
-
-<!--Images-->
-<div class="container mx-3">
-    <p class="display-6">Images</p>
-    <p>We can add image to the top of the card card using the (.card-img-top).</p>
-    <div class="card" style="width: 16rem">
-        <img src="sunset.png" class="card-img-top" alt="Sunset">
-        <h3 class="card-title">Sunset</h3>
-        <h6 class="card-subtitle">A dark sunset in Califronia</h6>
-    </div>
-</div>
 
 
 <!--List Group-->
@@ -184,7 +179,7 @@
 <div class="container mx-3">
     <p class="display-6">Spacing Utilities</p>
     <p>Use the following sizing utilities: <a href="https://getbootstrap.com/docs/5.3/utilities/sizing/" target="_blank">Available sizing utilities</a></p>
-    
+    <p>We can also use custom CSS (style="width: 18rem") to set width of the card.</p>
 </div>
 <div class="card w-50 mb-5 my-5">   <!--width is short for width which is 50% of the screen, mb is short for margin-bottom and my aligns the content vertically-->
     <div class="card-body">
@@ -202,9 +197,379 @@
   </div>
 
 
-  <!---->
+  <!--Text alignment-->
+<div class="container mx-3">
+    <p class="display-6">Text Alignment</p>
+  <div class="card text-start mb-1" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Start to End</h5>
+      <p class="card-text">This is default so the class .text-start is used, or use no class.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+  <!--Text alignment - Center-->
+  <div class="card text-center mb-1" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Center</h5>
+      <p class="card-text">The class .text-center is used.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+  <!--Text alingment - End-->
+  <div class="card text-end mb-1" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">End</h5>
+      <p class="card-text">The class .text-end class is used.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
 
 
+<!--Images-->
+<div class="container mx-3 mt-3 sm-2">
+    <p class="display-6">There are two </p>
+</div>
+
+<div class="row text-center">
+    <div class="col-sm-6 w-50 mb-2">
+        <div class="card">
+            <img src="images/sunset.png" class="card-img-top" alt="Sunset">
+            <h3 class="card-title">Sunset</h3>
+            <p class="card-text">A dark sunset in Califronia</p>
+            <p class="card-footer">Photographer: Sulaiman Jami</p>      
+        </div>
+    </div>
+    
+    <div class="col-sm-6 w-50 mb-2">
+        <div class="card">
+            <h3 class="card-title">Sunset</h3>
+            <p class="card-text">A dark sunset in Califronia</p>
+            <img src="images/sunrise.png" class="card-img-top" alt="Sunset">
+            <p class="card-footer">Photographer: Joseph Smith
+                <br>Year: 2023
+            </p>      
+        </div>
+    </div>
+</div>
+
+
+<!--Images Overlay-->
+<div class="container mx-3">
+<p class="display-6">Images Overlay</p>
+<p>By using the class (.card-image) the images is overlayed in card and other content are place at the top.</p>
+    <div class="card" style="width:600px;">
+        <img src="images/dubai.png" class="card-image" alt="dubai scene">
+        <div class="card-img-overlay">
+            <h4 class="card-title">Dubai</h4>
+            <p class="card-text">Dubai is a city and emirate in the United Arab Emirates known for luxury shopping,
+                ultramodern architecture and a lively nightlife scene.</p>
+    </div>
+</div>
+</div>
+
+
+<!--Horizontal Images-->
+<div class="container mx-3">
+    <p class="display-6">Horizontal Images</p>
+    <p>Using a combination of grid and utility classes, cards can be made horizontal in a
+        mobile-friendly and responsive way.
+        In the example below, we remove the grid gutters with .g-0 and use .col-md-* classes
+        to make the card horizontal at the md breakpoint. Further adjustments may be needed
+        depending on your card content.
+    </p>
+<div class="card mb-3 mt-3" style="max-width: 1000px;">
+    <div class="row g-0">       <!--The g-0 removed the gutter from the grid gutters-->
+      <div class="col-md-7">
+        <img src="images/kabul.png" class="img-fluid rounded-start" alt="Kabul City">  <!--rounded-start makes start edges of the image rounded-->
+      </div>
+      <div class="col-md-5">
+        <div class="card-body">
+          <h5 class="card-title">Kabul</h5>
+          <p class="card-text">Shah-e-Do Shamshira is a historical Masjid built about 600 years ago. This is located in heart of Kabul.</p>
+          <p class="card-footer">Image Credit: Safiullah Asadi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Background and Color-->
+<div class="container mx-3">
+    <p class="display-6">Background and colors</p>
+    <div class="row">
+        <div class="col-sm-3" style="width:auto;">
+            <div class="card text-bg-primary">
+                <div class="card-header">Title</div>
+                <div class="card-body">
+                    <p class="card-text">text-bg-primary color</p>
+                    <p class="card-footer">Updated 10 minutes ago.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3" style="width:auto;">
+            <div class="card text-bg-info">
+                <div class="card-header">Title</div>
+                <div class="card-body">
+                    <p class="card-text">text-bg-info color .</p>
+                    <p class="card-footer">Updated 11 minutes ago.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3" style="width:auto;">
+            <div class="card text-bg-secondary">
+                <div class="card-header">Title</div>
+                <div class="card-body">
+                    <p class="card-text">text-bg-secondary</p>
+                    <p class="card-footer">Updated 12 minutes ago.</p>
+                </div>
+            </div>
+        </div>
+
+     
+    <div class="col-sm-3" style="width:auto;">
+        <div class="card text-bg-success">
+            <div class="card-header">Title</div>
+            <div class="card-body">
+                <p class="card-text">text-bg-success</p>
+                <p class="card-footer">Updated 13 minutes ago.</p>
+            </div>
+        </div>
+    </div>
+    
+<div class="col-sm-3" style="width:auto;">
+    <div class="card text-bg-warning">
+        <div class="card-header">Title</div>
+        <div class="card-body">
+            <p class="card-text">text-bg-warning</p>
+            <p class="card-footer">Updated 14 minutes ago.</p>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-3" style="width:auto;">
+    <div class="card text-bg-danger">
+        <div class="card-header">Title</div>
+        <div class="card-body">
+            <p class="card-text">text-bg-danger</p>
+            <p class="card-footer">Updated 15 minutes ago.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!--Reamining - Background and Color-->
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-6 g-0">
+        <div class="card text-bg-light">
+            <div class="card-header">Title</div>
+            <div class="card-body">
+                <p class="card-text">text-bg-light</p>
+                <p class="card-footer">Updated 16 minutes ago.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 g-0">
+        <div class="card text-bg-dark">
+            <div class="card-header">Title</div>
+            <div class="card-body">
+                <p class="card-text">text-bg-dark</p>
+                <p class="card-footer">Updated 17 minutes ago.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!--Borders - Cards-->
+<div class="container-fluid mx-3">
+    <p class="display-6">Borders and Colors in Cards</p>
+    <p>The following classes are used for border colors:
+        <ul>
+            <li>border-primary</li>
+            <li>border-secondary</li>
+            <li>border-success</li>
+            <li>border-danger</li>
+            <li>border-warning</li>
+            <li>border-info</li>
+            <li>border-light</li>
+            <li>Border-dark</li>
+        </ul>
+        We can also remove a border color using (.bg-transparent) class.
+    </p>
+    <div class="row">
+        <div class="col-3-sm card border-primary mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">border-primary</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class=" col-3-sm card border-secondary mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+              <h5 class="card-title">border-secondary</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-3-sm card border-success mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-3-sm card border-danger mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-danger">
+              <h5 class="card-title">border-danger</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="col-3-sm card border-warning mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">border-warning</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-3-sm card border-info mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">border-info</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-2-sm card border-light mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">border-light</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-3-sm card border-dark mb-3" style="max-width: 10rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">border-dark</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+    
+    </div>
+</div>
+
+
+<!--Card groups-->
+<div class="container mx-3">
+    <p class="display-6">Card Groups</p>
+    <p>Use (.card-group) to render cards as a single, attached element with equal width and height columns.
+        Card groups start off stacked and use display: flex; to become attached with uniform dimensions
+        starting at the sm breakpoint.
+    </p>
+    <div class="card-group">
+        <div class="card">
+          <img src="images/ronaldo.png" class="card-img-top" alt="Cristiano Ronaldo">
+          <div class="card-body">
+            <h5 class="card-title">Cistiano Ronaldo</h5>
+            <p class="card-text">Cristiano Ronaldo is a Portuguese footballer who plays for Saudi Professional League.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Silva Sam</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/messi.png" class="card-img-top" alt="Lionel Messi">
+          <div class="card-body">
+            <h5 class="card-title">Lionel Messi</h5>
+            <p class="card-text">Lionel Messi is an Argentine footballer who plays for Major League Soccer club.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Angela Heinz</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/mbappe.png" class="card-img-top" alt="Kylian Mbappe">
+          <div class="card-body">
+            <h5 class="card-title">Kylian Mbappe</h5>
+            <p class="card-text">Kylian Mbappé a French footballer who plays for Paris Saint-Germain.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Image credit: Joseph Smith</small>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<!--Grid Cards-->
+<div class="container  mx-3 mt-3">
+    <p class="display-6">Grid Cards</p>
+    <p>Use the Bootstrap grid system and its .row-cols classes to control how
+        many grid columns (wrapped around your cards) you show per row.
+        For example, here is .row-cols-1 laying out the cards on one column,
+        and .row-cols-md-4 splitting four cards to equal width across one rows,
+        from the medium breakpoint up. If we change the .row-cols-md-4 to .row-cols-md-2
+        the last two columns will be placed in another row.
+    </p>
+<div class="row row-cols-1 row-cols-md-4 g-1">
+    <div class="col">
+      <div class="card">
+        <img src="images/family_1.png" class="card-img-top" alt="family">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/family_2.png" class="card-img-top" alt="family">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/family_3.png" class="card-img-top" alt="family">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/family_4.png" class="card-img-top" alt="family">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
 
 
         <!--The JavaScript link - CDN-->
