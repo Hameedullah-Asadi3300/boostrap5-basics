@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link - CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Forms-Bootstrap5</title>
+</head>
+<body>
+    
+    <!--Description-->
+    <div class="container mx-3">
+        <p class="display-3" style="text-align:center;">Forms</p>
+        <p>There are different elements used in forms such as:
+          <ul>
+            <li>input:
+              <br>This HTML element is used to create interactive controls for web-based forms in order to accept data from the user.<br>
+              <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              
+            </li>
+            <li>label:<br>
+              This element defines a label for several form elements. The label element is used to associate a text label with a
+              form input field. The label is used to tell users the value that should be entered in the associated input field.
+              Display inline.
+              <form action="/action_page.php">
+                <label for="cars">Choose a contenent:</label>
+                <select id="contenet" name="contenet">
+                  <option value="Asia">Asia</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Africa">Africa</option>
+                  <option value="America">America</option>
+                </select>
+                <input type="submit">
+              </form>
+            </li>
+
+            <li>select:
+              <br> The select element is used to define a dropdown list.
+            </li>
+            <li>option<br>
+              The option element is used to define an option that can be selected. And by default the first option is already selected.
+            </li>
+            <li>size:<br>
+              It is an attribute used to define number of visible values/options.<br>
+              multiple: This is also an attribute used to let the user to have multiple selection.<br>
+    
+              <form action="/action_page.php">
+                <label for="country">Choose a country:</label>
+                <select id="country" name="country" size="3">
+                  <option value="Germany">Germany</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Sweden">Sweden</option>
+                </select><br><br>
+                <input type="submit">
+              </form>
+            </li>
+
+            <li>textarea:<br>
+              The element defines a multi-line input field (a text area):<br>
+              row: Row is an attribute that specifies the visible number of lines in a text area.<br>
+              cols: The cols attribute specifies the visible width of a text area.<br>
+              <form action="/action_page.php">
+                <textarea name="message" rows="10" cols="30">You can type 10 rows message in this box.</textarea>
+                <br><br>
+                <input type="submit">
+              </form>
+              </li>
+            </li>
+
+            <li>button:<br>
+              This element defines a clickable button.<br>
+              <button type="button" onclick="alert('Hello Bootstrap5!')">Click Me!</button><br>
+              It is always recommended to use (type) attribute for buttons.
+            </li>
+
+            <li>fieldset:<br>
+              The fieldset element is used to group related data in a form.<br>
+              <form action="/action_page.php">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname" value="John"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+            </li>
+
+            <li>legend:<br>
+            The legend element defines a caption for the fieldset element. Look at the above example.
+            </li>
+
+            <li>datalist:<br>
+              This element defines a list of pre-defiend option for input. This is intersting.<br>
+              <form action="/action_page.php">
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                  <option value="Internet Explorer">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist>
+                <input type="submit">
+              </form>
+            </li>
+
+            <li>output:<br>
+              This element represents the result of a calculation (like one performed by a script).
+            </li>
+          </ul>
+        </p>
+    </div>
+
+
+<!--Simple Form-->
+    <div class="container mx-3">
+      <p class="display-6">Simple Form</p>
+      <p>This is a simple form in which the bootstrap5 classes such as: .form-label, .form-control are used.<br>
+        The .form-label makes the padding right.<br>
+        The .form-control gives the form a style.
+         </p>
+      <div style="text-align:center">
+        <h2>Let's Get in Touch</h2>
+        <h6>Fill the Following Form</h6>
+      </div>
+      <form>
+        <div class="mb-3 mt-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Full Name" name="name">  
+        </div>
+        
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="adamsmith@example.com" name="email">
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone">
+        </div>
+     
+        <div class="mb-3 mt-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea type="text" class="form-control" id="message" name="message" rows="3"  placeholder="Write your message here..."></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </form>
+    </div>
+
+
+
+<!--Comment Box-->
+    <div class="container mx-3">
+      <p class="display-6">Comment Box</p>
+      <form>
+      <div class="mb-3 mt-3">
+      <label for="comment" class="form-label">Comment</label>
+      <textarea type="text" class="form-control" id="comment" name="comment" rows="5"  placeholder="Write your comment here..."></textarea>
+    </div>
+    <div class="text-center">
+    <button type="submit" class="btn btn-warning">Submit</button>
+    </div>
+    </form>
+    </div>
+
+
+<!--Inline Form-->
+<div class="container mx-3">
+  <p class="display-6">Inline Form</p>
+  <p>To create an inline form, we wrap the input tags with the row and then then col classes in bootstrap5.</p>
+  <form>
+    <h4 style="text-align:center">Login to Your Account</h4>
+    <div class="row mb-3 mt-3">
+      <div class="col-6">
+        <input type="text" class="form-control" placeholder="Enter email" name="email">
+      </div>
+      <div class="col-6">
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="text-center">
+      <button type="submit" class="btn btn-danger w-50">Login</button>
+    </div>
+    </div>
+  </form>
+  </div>
+
+<!--Form Control Size-->
+<div class="container mx-3">
+  <p class="display-6">Form Control Size</p>
+  <p>You can change the size of .form-control inputs with .form-control-lg or .form-control-sm. There are three sizes used as follows:</p>
+  <ol>
+    <li>.form-control .form-control-lg</li>
+    <li>.form-control</li>
+    <li>.form-control .form-control-sm</li>
+  </ol>
+  <form>
+    <div class="mb-3 mt-3">
+      <input type="text" class="form-control form-control-lg" placeholder="Large size form-control">
+      <input type="text" class="form-control mt-3" placeholder="Normal size form-control">
+      <input type="text" class="form-control form-control-sm mt-3" placeholder="Small size form-control">
+    </div>  
+  </form>
+</div>
+
+  
+    <!--The JavaScript link - CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>
